@@ -1,0 +1,94 @@
+/* index.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .nav-header {
+    background-color: #333;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-content {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .website-logo {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-menu li {
+    margin-left: 15px;
+  }
+  
+  .social-network-img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-network-img:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .nav-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .nav-menu {
+      margin-top: 10px;
+    }
+  
+    .nav-menu li {
+      margin-left: 10px;
+    }
+  
+    .social-network-img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .subcontainer1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .image1{
+        height: 25px;
+        width: 25px;
+        margin-right: 20px;
+
+  }
+  .profile{
+    background-color: rgb(163, 248, 248);
+    color: blue;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
